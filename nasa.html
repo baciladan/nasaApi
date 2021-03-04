@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking the stylesheets and JS file -->
+    <link rel="stylesheet" type="text/css" href="./nasa.css">
+    <link rel="stylesheet" type="text/css" href="./loader.css">
+    <script src="./nasa.js"></script>
+    <title>Astronomy Picture of the Day</title>
+</head>
+
+<body>
+    <!-- Header Section. Contains the NASA Picture and Headline Text -->
+    <header class="main-header">
+        <img src="nasa.png">
+        <h3>Astronomy Picture of the Day</h3>
+    </header>
+    <!-- Section that contains the select date input, button for search and text -->
+    <section class="selectdate">
+        <p>Select Date: </p>
+        <input type="date" id="dateInput" required>
+        <button id="searchButton">See picture</button>
+    </section>
+    <!-- Picture card Section -->
+    <section id="pictureCard">
+
+    </section>
+    <!-- Loader -->
+    <section class="loader" id="appLoader">
+
+    </section>
+    <!-- Error Container -->
+    <section id="errorContainer">
+
+    </section>
+</body>
+
+</html>
